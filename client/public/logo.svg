@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Outer Rounded Shield Container -->
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E654C" />
+      <stop offset="100%" stop-color="#0E3326" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38A57F" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Background Shield -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#shieldGrad)" stroke="#38A57F" stroke-width="1.5" />
+
+  <!-- Subtle Inner Glow Ring -->
+  <rect x="5" y="5" width="54" height="54" rx="13" fill="none" stroke="#EBF6F0" stroke-width="0.75" stroke-opacity="0.2" />
+
+  <!-- Central Government & Alignment Emblem -->
+  <!-- Capitol Pediment / Dome Triangle -->
+  <path d="M32 12L15 22H49L32 12Z" fill="url(#accentGrad)" filter="url(#shadow)" />
+
+  <!-- Pediment Arch Base Line -->
+  <rect x="14" y="23" width="36" height="2.5" rx="1.25" fill="#EBF6F0" />
+
+  <!-- Four Vertical Pillars (Representing the 4 Pillars: V, T, Q, X) -->
+  <!-- Pillar 1: Volume -->
+  <rect x="18" y="27.5" width="4.5" height="17" rx="1.5" fill="#EBF6F0" />
+  <!-- Pillar 2: Timeliness -->
+  <rect x="25.5" y="27.5" width="4.5" height="17" rx="1.5" fill="#EBF6F0" />
+  <!-- Pillar 3: Quality -->
+  <rect x="34" y="27.5" width="4.5" height="17" rx="1.5" fill="#EBF6F0" />
+  <!-- Pillar 4: Complexity -->
+  <rect x="41.5" y="27.5" width="4.5" height="17" rx="1.5" fill="#EBF6F0" />
+
+  <!-- Plinth / Base Foundation -->
+  <rect x="13" y="46.5" width="38" height="3" rx="1.5" fill="#EBF6F0" />
+  <rect x="11" y="50.5" width="42" height="2.5" rx="1.25" fill="url(#accentGrad)" />
+
+  <!-- Small Gold Alignment / Calibration Star at Peak -->
+  <circle cx="32" cy="17.5" r="2" fill="url(#goldGrad)" />
+</svg>
